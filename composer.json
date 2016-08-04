@@ -1,0 +1,22 @@
+{
+    "name": "logobinder/translations",
+    "description": "Translation trait",
+    "keywords": ["translation", "laravel"],
+    "homepage": "https://github.com/logobinder/translations",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Anyszek",
+            "email": "logobinder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+        },
+        "classmap": [
+            "tests"
+        ]
+    }
+}
