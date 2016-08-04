@@ -1,10 +1,10 @@
 <?php
 
-namespace Logobinder\Translation;
+namespace Logobinder\Translations;
 
 use App;
 
-trait TranslationTrait {
+trait TranslationsTrait {
 
     public function getAttribute($key) {
 

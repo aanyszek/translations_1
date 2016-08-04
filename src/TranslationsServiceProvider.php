@@ -1,6 +1,6 @@
 <?php
 
-namespace Logobinder\Translation;
+namespace Logobinder\Translations;
 
 /**
  * 
@@ -8,7 +8,7 @@ namespace Logobinder\Translation;
  */
 use Illuminate\Support\ServiceProvider;
 
-class TranslationServiceProvider extends ServiceProvider {
+class TranslationsServiceProvider extends ServiceProvider {
 
     public function boot() {
         $this->publishes([
