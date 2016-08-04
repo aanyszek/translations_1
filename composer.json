@@ -15,7 +15,7 @@
     "autoload": {
         "psr-4": {
             "Logobinder\\Translations\\": "src/",
-            "Logobinder\\Translations\\Models": "src/models/"
+            "Logobinder\\Translations\\Models\\": "src/models/"
         },
         "classmap": [
             "tests"
