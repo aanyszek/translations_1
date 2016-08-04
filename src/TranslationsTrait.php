@@ -26,7 +26,7 @@ trait TranslationsTrait {
 
     public function Translations() {
 
-        $relation = $this->hasMany('Logobinder\Translation\Models\Translation', 'foreign_id', 'id')
+        $relation = $this->hasMany('Logobinder\Translations\Models\Translation', 'foreign_id', 'id')
                 ->where('table', $this->table);
 
         return $relation;
